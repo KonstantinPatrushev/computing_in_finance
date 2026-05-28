@@ -1,0 +1,56 @@
+===== JOB INFO =====
+Date         = Mon May 18 17:31:13 MSK 2026
+Hostname     = cn-048
+Job ID       = 4005687
+Allocated GPU= 0
+NVIDIA H100 PCIe, 81559 MiB, 590.48.01
+=================================
+Python 3.11.13
+qiskit 1.4.2 aer 0.15.1 numpy 1.26.4
+AerSimulator GPU OK: A C++ statevector simulator with noise
+backend: A C++ statevector simulator with noise  available_devices=?
+writing rows to results/hpc_qaoa_v2_n24.jsonl
+
+=== N=24 K=6 seed=42  BF_opt=-0.21658  BF_time=0.59s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 653.26s  ising_min=-181.9404
+    sample: E[obj]=-0.01679 P_valid=0.112 best=-0.20772 (110000000000100000101001) in 0.42s
+  warm-start p=2 init from previously trained p=1
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=2: trained in 1242.61s  ising_min=-202.9152
+    sample: E[obj]=-0.04384 P_valid=0.297 best=-0.20368 (010000000010000010001101) in 0.13s
+
+=== N=24 K=6 seed=123  BF_opt=-0.20601  BF_time=0.59s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 628.24s  ising_min=-171.1903
+    sample: E[obj]=-0.03939 P_valid=0.304 best=-0.18931 (000011010000001001000001) in 0.09s
+  warm-start p=2 init from previously trained p=1
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=2: trained in 1243.30s  ising_min=-200.9880
+    sample: E[obj]=-0.03869 P_valid=0.299 best=-0.19092 (000000011001001100100000) in 0.13s
+
+=== N=24 K=6 seed=7  BF_opt=-0.20121  BF_time=0.58s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 667.51s  ising_min=-186.1302
+    sample: E[obj]=-0.04390 P_valid=0.329 best=-0.19267 (000000011000000110100100) in 0.13s
+  warm-start p=2 init from previously trained p=1
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=2: trained in 689.95s  ising_min=-167.1291
+    sample: E[obj]=-0.03587 P_valid=0.283 best=-0.19303 (010010010000000000100110) in 0.13s
+
+done. wrote results/hpc_qaoa_v2_n24.jsonl
+backend: A C++ statevector simulator with noise  available_devices=?
+writing rows to results/hpc_qaoa_v2_n26.jsonl
+
+=== N=26 K=6 seed=42  BF_opt=-0.21247  BF_time=1.02s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 4334.79s  ising_min=-277.6876
+    sample: E[obj]=-0.03805 P_valid=0.263 best=-0.20445 (00010000000010100011100000) in 0.42s
+
+=== N=26 K=6 seed=123  BF_opt=-0.20352  BF_time=1.04s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 939.60s  ising_min=-0.0000
+    sample: E[obj]=-0.00043 P_valid=0.003 best=-0.17009 (00000011000001000100100001) in 0.20s
+
+=== N=26 K=6 seed=7  BF_opt=-0.20422  BF_time=1.03s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training

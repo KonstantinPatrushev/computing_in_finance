@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.claude
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Project data and results
+data/raw/
+data/processed/
+data/synthetic/*.parquet
+instances/*.json
+results/*.jsonl
+results/*.csv
+!results/final/
+!results/final/**
+mlruns/
+
+# Secrets
+.env
+.env.local
+*.token
+ibm_credentials.json
+dwave.conf
+
+# OS
+Thumbs.db

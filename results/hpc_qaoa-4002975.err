@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/__init__.py", line 69, in <module>
+    from qiskit_aer.aerprovider import AerProvider
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/aerprovider.py", line 20, in <module>
+    from .backends.aer_simulator import AerSimulator
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/__init__.py", line 17, in <module>
+    from .aer_simulator import AerSimulator
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/aer_simulator.py", line 24, in <module>
+    from .aerbackend import AerBackend, AerError
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/aerbackend.py", line 33, in <module>
+    from ..noise.noise_model import NoiseModel, QuantumErrorLocation
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/noise/__init__.py", line 241, in <module>
+    from .noise_model import NoiseModel
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/noise/noise_model.py", line 38, in <module>
+    from ..backends.backend_utils import BASIS_GATES
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/backend_utils.py", line 30, in <module>
+    from .controller_wrappers import aer_initialize_libraries
+ImportError: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by /home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/../../cuquantum/lib/libcustatevec.so.1)
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/__init__.py", line 69, in <module>
+    from qiskit_aer.aerprovider import AerProvider
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/aerprovider.py", line 20, in <module>
+    from .backends.aer_simulator import AerSimulator
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/__init__.py", line 17, in <module>
+    from .aer_simulator import AerSimulator
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/aer_simulator.py", line 24, in <module>
+    from .aerbackend import AerBackend, AerError
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/aerbackend.py", line 33, in <module>
+    from ..noise.noise_model import NoiseModel, QuantumErrorLocation
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/noise/__init__.py", line 241, in <module>
+    from .noise_model import NoiseModel
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/noise/noise_model.py", line 38, in <module>
+    from ..backends.backend_utils import BASIS_GATES
+  File "/home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/backend_utils.py", line 30, in <module>
+    from .controller_wrappers import aer_initialize_libraries
+ImportError: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by /home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/../../cuquantum/lib/libcustatevec.so.1)
+slurmstepd: error: *** JOB 4002975 ON cn-010 CANCELLED AT 2026-05-18T03:14:46 DUE TO TIME LIMIT ***

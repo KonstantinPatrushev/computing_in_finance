@@ -1,0 +1,119 @@
+===== JOB INFO =====
+Date         = Пн май 18 01:14:38 MSK 2026
+Hostname     = cn-010
+Working dir  = /home/kapatrushev
+Job ID       = 4002975
+Allocated GPU= 0
+=================================
+Python: /home/kapatrushev/.conda/envs/cif/bin/python
+Python 3.11.13
+WARN: GPU backend probe failed
+[INFO] qiskit_aer unavailable (ImportError: /lib64/libm.so.6: version `GLIBC_2.27' not found (required by /home/kapatrushev/.conda/envs/cif/lib/python3.11/site-packages/qiskit_aer/backends/../../cuquantum/lib/libcustatevec.so.1)); falling back to pure-numpy Statevector sampling
+[INFO] running in pure-numpy Statevector mode (qiskit_aer unavailable)
+writing rows to results/hpc_qaoa.jsonl
+
+=== N=8 K=2 seed=42  BF_opt=-0.21992  BF_time=0.09s ===
+  p=1: trained in 5.40s  ising_min=-71.4168
+    sample: E[obj]=-0.05301 P_valid=0.347 best=-0.21992 (00100100) in 0.23s
+  p=2: trained in 11.03s  ising_min=-70.8872
+    sample: E[obj]=-0.05903 P_valid=0.353 best=-0.21992 (00100100) in 0.02s
+
+=== N=8 K=2 seed=123  BF_opt=-0.20575  BF_time=0.00s ===
+  p=1: trained in 7.19s  ising_min=-72.3401
+    sample: E[obj]=-0.04026 P_valid=0.371 best=-0.20575 (01100000) in 0.01s
+  p=2: trained in 13.97s  ising_min=-80.5296
+    sample: E[obj]=-0.05409 P_valid=0.488 best=-0.20575 (01100000) in 0.02s
+
+=== N=8 K=2 seed=7  BF_opt=-0.20068  BF_time=0.00s ===
+  p=1: trained in 5.47s  ising_min=-62.6817
+    sample: E[obj]=-0.03586 P_valid=0.292 best=-0.20068 (10100000) in 0.01s
+  p=2: trained in 15.66s  ising_min=-78.5385
+    sample: E[obj]=-0.08583 P_valid=0.587 best=-0.20068 (10100000) in 0.02s
+
+=== N=10 K=2 seed=42  BF_opt=-0.21778  BF_time=0.00s ===
+  p=1: trained in 12.33s  ising_min=-131.7031
+    sample: E[obj]=-0.00569 P_valid=0.038 best=-0.21778 (0000100100) in 0.02s
+  p=2: trained in 21.88s  ising_min=-162.5409
+    sample: E[obj]=-0.07980 P_valid=0.524 best=-0.21778 (0000100100) in 0.03s
+
+=== N=10 K=2 seed=123  BF_opt=-0.21181  BF_time=0.00s ===
+  p=1: trained in 13.39s  ising_min=-140.0554
+    sample: E[obj]=-0.04352 P_valid=0.304 best=-0.21181 (0001100000) in 0.02s
+  p=2: trained in 18.73s  ising_min=-165.8996
+    sample: E[obj]=-0.04990 P_valid=0.439 best=-0.21181 (0001100000) in 0.03s
+
+=== N=10 K=2 seed=7  BF_opt=-0.20836  BF_time=0.00s ===
+  p=1: trained in 12.11s  ising_min=-125.2797
+    sample: E[obj]=-0.03905 P_valid=0.253 best=-0.20836 (0000100010) in 0.02s
+  p=2: trained in 12.48s  ising_min=-152.6339
+    sample: E[obj]=-0.06241 P_valid=0.421 best=-0.20836 (0000100010) in 0.03s
+
+=== N=12 K=3 seed=42  BF_opt=-0.22190  BF_time=0.00s ===
+  p=1: trained in 17.23s  ising_min=-120.5260
+    sample: E[obj]=-0.06199 P_valid=0.417 best=-0.22190 (100000100100) in 0.04s
+  p=2: trained in 22.69s  ising_min=-123.6503
+    sample: E[obj]=-0.08695 P_valid=0.551 best=-0.22190 (100000100100) in 0.05s
+
+=== N=12 K=3 seed=123  BF_opt=-0.21324  BF_time=0.00s ===
+  p=1: trained in 24.99s  ising_min=-100.9775
+    sample: E[obj]=-0.04032 P_valid=0.310 best=-0.21324 (001001100000) in 0.03s
+  p=2: trained in 28.05s  ising_min=-112.3354
+    sample: E[obj]=-0.05324 P_valid=0.423 best=-0.21324 (001001100000) in 0.05s
+
+=== N=12 K=3 seed=7  BF_opt=-0.20796  BF_time=0.00s ===
+  p=1: trained in 7.99s  ising_min=-82.7835
+    sample: E[obj]=-0.06098 P_valid=0.443 best=-0.20796 (000100100010) in 0.03s
+  p=2: trained in 39.03s  ising_min=-101.6959
+    sample: E[obj]=-0.04936 P_valid=0.365 best=-0.20796 (000100100010) in 0.05s
+
+=== N=14 K=4 seed=42  BF_opt=-0.21736  BF_time=0.01s ===
+  p=1: trained in 51.94s  ising_min=-84.8415
+    sample: E[obj]=-0.06157 P_valid=0.379 best=-0.21736 (10100010100000) in 0.08s
+  p=2: trained in 95.47s  ising_min=-89.5033
+    sample: E[obj]=-0.06942 P_valid=0.442 best=-0.21736 (10100010100000) in 0.12s
+
+=== N=14 K=4 seed=123  BF_opt=-0.20727  BF_time=0.01s ===
+  p=1: trained in 58.87s  ising_min=-81.8974
+    sample: E[obj]=-0.05003 P_valid=0.392 best=-0.20727 (00001101100000) in 0.08s
+  p=2: trained in 133.84s  ising_min=-77.7256
+    sample: E[obj]=-0.03161 P_valid=0.271 best=-0.20727 (00001101100000) in 0.12s
+
+=== N=14 K=4 seed=7  BF_opt=-0.20489  BF_time=0.01s ===
+  p=1: trained in 28.92s  ising_min=-76.4467
+    sample: E[obj]=-0.04081 P_valid=0.321 best=-0.20394 (00000010100110) in 0.07s
+  p=2: trained in 107.72s  ising_min=-76.9205
+    sample: E[obj]=-0.04814 P_valid=0.356 best=-0.20489 (00000100100110) in 0.13s
+
+=== N=16 K=4 seed=42  BF_opt=-0.21521  BF_time=0.01s ===
+  p=1: trained in 98.91s  ising_min=-144.8168
+    sample: E[obj]=-0.04196 P_valid=0.291 best=-0.21284 (0010100000100001) in 0.32s
+  p=2: trained in 280.19s  ising_min=-126.5748
+    sample: E[obj]=-0.00822 P_valid=0.057 best=-0.21086 (0000100001100100) in 0.40s
+
+=== N=16 K=4 seed=123  BF_opt=-0.20260  BF_time=0.02s ===
+  p=1: trained in 179.14s  ising_min=-118.9787
+    sample: E[obj]=-0.05112 P_valid=0.388 best=-0.20260 (0100001101000000) in 0.20s
+  p=2: trained in 365.39s  ising_min=-138.9539
+    sample: E[obj]=-0.06623 P_valid=0.522 best=-0.20260 (0100001101000000) in 0.37s
+
+=== N=16 K=4 seed=7  BF_opt=-0.19585  BF_time=0.02s ===
+  p=1: trained in 141.88s  ising_min=-114.1191
+    sample: E[obj]=-0.05154 P_valid=0.391 best=-0.19448 (0000000100100110) in 0.20s
+  p=2: trained in 261.58s  ising_min=-126.9264
+    sample: E[obj]=-0.03605 P_valid=0.277 best=-0.19585 (0000000110100010) in 0.37s
+
+=== N=18 K=4 seed=42  BF_opt=-0.20678  BF_time=0.02s ===
+  p=1: trained in 343.88s  ising_min=-236.1454
+    sample: E[obj]=-0.04966 P_valid=0.372 best=-0.20678 (000010100000100100) in 0.80s
+  p=2: trained in 1191.41s  ising_min=-196.1812
+    sample: E[obj]=-0.00340 P_valid=0.027 best=-0.18948 (010000100001000100) in 1.53s
+
+=== N=18 K=4 seed=123  BF_opt=-0.21103  BF_time=0.02s ===
+  p=1: trained in 608.78s  ising_min=-220.6006
+    sample: E[obj]=-0.04477 P_valid=0.354 best=-0.21103 (010100001001000000) in 1.09s
+  p=2: trained in 1522.35s  ising_min=-219.4816
+    sample: E[obj]=-0.04419 P_valid=0.346 best=-0.21103 (010100001001000000) in 1.74s
+
+=== N=18 K=4 seed=7  BF_opt=-0.21611  BF_time=0.09s ===
+  p=1: trained in 536.72s  ising_min=-207.7459
+    sample: E[obj]=-0.04558 P_valid=0.321 best=-0.21226 (010000000100100010) in 0.82s

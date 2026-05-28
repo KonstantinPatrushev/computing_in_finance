@@ -1,0 +1,32 @@
+===== JOB INFO =====
+Date         = Mon May 18 13:35:13 MSK 2026
+Hostname     = cn-047
+Working dir  = /home/kapatrushev
+Job ID       = 4005253
+Allocated GPU= 0
+NVIDIA H100 PCIe, 81559 MiB, 590.48.01
+=================================
+Python: /home/kapatrushev/.conda/envs/cif/bin/python
+Python 3.11.13
+qiskit 1.4.2 aer 0.15.1 numpy 1.26.4
+AerSimulator GPU OK: A C++ statevector simulator with noise
+backend: A C++ statevector simulator with noise  available_devices=?
+writing rows to results/hpc_qaoa_stretch.jsonl
+
+=== N=24 K=6 seed=42  BF_opt=-0.21658  BF_time=0.62s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 809.17s  ising_min=-177.8945
+    sample: E[obj]=-0.00602 P_valid=0.039 best=-0.19945 (100011000010000000100001) in 0.37s
+
+=== N=24 K=6 seed=123  BF_opt=-0.20601  BF_time=0.60s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 1089.29s  ising_min=-179.9870
+    sample: E[obj]=-0.02457 P_valid=0.187 best=-0.19474 (010000010001001001100000) in 0.09s
+
+=== N=24 K=6 seed=7  BF_opt=-0.20121  BF_time=0.59s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 908.44s  ising_min=-186.2039
+    sample: E[obj]=-0.04518 P_valid=0.336 best=-0.19926 (000010110000000000100110) in 0.09s
+
+=== N=26 K=6 seed=42  BF_opt=-0.21247  BF_time=1.05s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training

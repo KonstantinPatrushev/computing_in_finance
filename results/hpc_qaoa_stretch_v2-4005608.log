@@ -1,0 +1,42 @@
+===== JOB INFO =====
+Date         = Mon May 18 18:43:22 MSK 2026
+Hostname     = cn-043
+Job ID       = 4005608
+Allocated GPU= 0
+NVIDIA A100-SXM4-80GB, 81920 MiB, 590.48.01
+=================================
+Python 3.11.13
+qiskit 1.4.2 aer 0.15.1 numpy 1.26.4
+AerSimulator GPU OK: A C++ statevector simulator with noise
+backend: A C++ statevector simulator with noise  available_devices=?
+writing rows to results/hpc_qaoa_v2_n24.jsonl
+  resuming: 4 cells already in results/hpc_qaoa_v2_n24.jsonl, will skip
+
+=== N=24 K=6 seed=42  BF_opt=-0.21658  BF_time=1.28s ===
+  p=1: already done in checkpoint, skipping
+  p=2: already done in checkpoint, skipping
+
+=== N=24 K=6 seed=123  BF_opt=-0.20601  BF_time=1.29s ===
+  p=1: already done in checkpoint, skipping
+  p=2: already done in checkpoint, skipping
+
+=== N=24 K=6 seed=7  BF_opt=-0.20121  BF_time=1.31s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 1239.67s  ising_min=-186.1065
+    sample: E[obj]=-0.04662 P_valid=0.348 best=-0.19337 (000000010000001110000110) in 0.17s
+  warm-start p=2 init from previously trained p=1
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=2: trained in 1553.39s  ising_min=-160.0986
+    sample: E[obj]=-0.02217 P_valid=0.174 best=-0.18364 (000010010000000110010100) in 0.27s
+
+done. wrote results/hpc_qaoa_v2_n24.jsonl
+backend: A C++ statevector simulator with noise  available_devices=?
+writing rows to results/hpc_qaoa_v2_n26.jsonl
+
+=== N=26 K=6 seed=42  BF_opt=-0.21247  BF_time=2.29s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
+  p=1: trained in 6170.70s  ising_min=-280.2534
+    sample: E[obj]=-0.04006 P_valid=0.280 best=-0.20337 (00000101000010100010100000) in 0.49s
+
+=== N=26 K=6 seed=123  BF_opt=-0.20352  BF_time=2.35s ===
+  [GPU] AerSimulator(GPU) probe OK — using GPU statevector for training
